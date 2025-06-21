@@ -21,4 +21,8 @@
     .recipe-name {
         font-size: 40px;
     }
+
+    .recipe-origin {
+        display: block;
+    }
 }
