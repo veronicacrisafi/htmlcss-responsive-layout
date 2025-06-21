@@ -6,4 +6,19 @@
         align-items: start;
         justify-content: start;
     }
+
+    main {
+        padding: 40px;
+    }
+
+
+
+    .recipe-category {
+        font-size: 20px;
+
+    }
+
+    .recipe-name {
+        font-size: 40px;
+    }
 }
