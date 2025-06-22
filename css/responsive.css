@@ -1,12 +1,15 @@
 /*bonus mobile*/
 
+@media screen and (min-width:576px) {
+    .presentation img {
+        float: left;
+        margin-right: 15px;
+    }
 
-
-
-
-
-
-
+    .btn {
+        width: 200px;
+    }
+}
 
 
 
@@ -94,13 +97,15 @@
 
     .recipe-video {
         width: 90%;
-        height: 400px;
+        height: 450px;
 
     }
 
     .recipe-info {
         width: 50%;
     }
+
+
 
     .social-networks .label {
         display: inline-block;
