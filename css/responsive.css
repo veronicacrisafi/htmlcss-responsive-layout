@@ -7,12 +7,7 @@
     #topbar {
         padding: 30px 30px;
         display: flex;
-        justify-content: center;
-
-    }
-
-    #logo {
-        font-size: 6rem;
+        justify-content: flex-start;
 
     }
 
@@ -20,24 +15,44 @@
         padding: 40px;
     }
 
-    .recipe-title {}
-
-    .recipe-category {
-        font-size: 40px;
-
-    }
-
-    .recipe-name {
-        font-size: 50px;
+    .recipe-title {
+        position: relative;
     }
 
     .recipe-origin {
         display: block;
+        position: absolute;
+        left: 130px;
+        bottom: 0.5px;
+
+    }
+
+    .recipe-name,
+    .recipe-origin {
+        font-size: 30px;
     }
 
     .quick-notes {
-        display: flex;
 
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
 
     }
+
+
+
+    .btn {
+        width: 200px;
+    }
+
+    .ads {
+        display: block;
+    }
+
+    .presentation img {
+        float: left;
+        margin-right: 15px;
+    }
+
 }
