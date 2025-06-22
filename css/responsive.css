@@ -1,3 +1,15 @@
+/*bonus mobile*/
+
+
+
+
+
+
+
+
+
+
+
 /*tablet*/
 
 @media screen and (min-width: 768px) {
@@ -19,8 +31,6 @@
 
     .recipe-origin {
         display: inline-block;
-
-
     }
 
     .recipe-name,
@@ -28,16 +38,17 @@
         font-size: 30px;
     }
 
-    ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 40px;
-    }
+    .quick-notes {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
 
-    li {
-        width: calc(100%/3 - 30px);
+            li {
+                width: calc(100%/3 - 30px);
+            }
+        }
     }
-
 
 
     .btn {
@@ -95,10 +106,21 @@
         display: inline-block;
     }
 
+    .quick-notes {
+        ul {
+            display: block;
+        }
+
+        li {
+            text-align: ;
+        }
+    }
+
     footer {
         display: flex;
         justify-content: space-between;
         text-align: left;
     }
+
 
 }
