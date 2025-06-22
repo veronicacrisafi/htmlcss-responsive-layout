@@ -28,7 +28,15 @@
         font-size: 30px;
     }
 
-    .quick-notes {}
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    li {
+        width: calc(100%/3 - 30px);
+    }
 
 
 
