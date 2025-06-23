@@ -115,11 +115,13 @@
     .quick-notes {
         ul {
             display: block;
+
+            li {
+                width: 100%;
+            }
         }
 
-        li {
-            width: 100%;
-        }
+
     }
 
     footer {
